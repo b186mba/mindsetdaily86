@@ -3,78 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Mindset Publisher</title>
 
     <style>
-        body{
+        body {
             font-family: Arial, Helvetica, sans-serif;
-            max-width:900px;
-            margin:auto;
-            padding:40px;
-            line-height:1.7;
-            color:#333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
         }
 
-        header{
-            text-align:center;
-            margin-bottom:50px;
+        header {
+            margin-bottom: 40px;
         }
 
-        h1{
-            font-size:42px;
-            margin-bottom:10px;
+        header h1 {
+            margin-bottom: 10px;
         }
 
-        h2{
-            margin-top:40px;
-            color:#222;
+        nav {
+            margin-top: 15px;
         }
 
-        nav{
-            margin-top:25px;
+        nav a {
+            margin-right: 20px;
+            color: #333;
+            text-decoration: none;
         }
 
-        nav a{
-            text-decoration:none;
-            margin:0 15px;
-            color:#0066cc;
-            font-weight:bold;
+        nav a:hover {
+            text-decoration: underline;
         }
 
-        section{
-            margin-top:35px;
+        h1,
+        h2 {
+            color: #222;
         }
 
-        ul{
-            margin-top:10px;
+        section {
+            margin-top: 35px;
         }
 
-        footer{
-            margin-top:60px;
-            padding-top:20px;
-            border-top:1px solid #ddd;
-            text-align:center;
-            font-size:14px;
-            color:#666;
+        ul {
+            padding-left: 25px;
         }
 
-        .hero{
-            text-align:center;
-            margin-top:40px;
+        footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+            font-size: 14px;
+            color: #666;
         }
 
-        .hero p{
-            font-size:20px;
-        }
-
-        .box{
-            background:#f7f7f7;
-            border-radius:8px;
-            padding:25px;
-            margin-top:25px;
+        a {
+            color: #333;
         }
     </style>
-
 </head>
 
 <body>
@@ -82,8 +70,6 @@
 <header>
 
     <h1>Mindset Publisher</h1>
-
-    <p><strong>Desktop publishing application for creators</strong></p>
 
     <nav>
         <a href="index.html">Home</a>
@@ -93,113 +79,103 @@
 
 </header>
 
-<div class="hero">
+<main>
+
+    <h2>Desktop publishing application for creators</h2>
 
     <p>
-        Mindset Publisher is a desktop application that enables creators to securely
+        Mindset Publisher is a desktop application that helps content creators
         connect their social media accounts and publish original short-form video content.
     </p>
 
-</div>
+    <section>
 
-<section>
+        <h2>Purpose</h2>
 
-<h2>Purpose</h2>
+        <p>
+            Mindset Publisher provides a centralized publishing workflow for creators
+            who want to prepare and publish their own short-form videos to supported
+            social media platforms.
+        </p>
 
-<div class="box">
+        <p>
+            The application uses official platform authentication and API integrations
+            to connect creator accounts and perform authorized publishing actions.
+        </p>
 
-Mindset Publisher helps creators publish videos to supported social media platforms
-using each platform's official APIs and OAuth authentication.
+    </section>
 
-The application is designed for creators who want a single desktop publishing workflow
-for managing and publishing their own original content.
+    <section>
 
-</div>
+        <h2>Features</h2>
 
-</section>
+        <ul>
+            <li>Secure account connection using official OAuth authentication.</li>
+            <li>Publish original short-form video content.</li>
+            <li>Upload videos as drafts where supported by a platform.</li>
+            <li>Directly publish videos where supported by a platform.</li>
+            <li>Manage publishing workflows across supported social platforms.</li>
+            <li>Support for multiple authorized creator accounts.</li>
+        </ul>
 
-<section>
+    </section>
 
-<h2>Features</h2>
+    <section>
 
-<ul>
+        <h2>Account Authorization</h2>
 
-<li>Secure account authentication using official OAuth flows.</li>
+        <p>
+            Mindset Publisher only accesses social media accounts that have explicitly
+            authorized the application through the platform's official OAuth
+            authorization process.
+        </p>
 
-<li>Publish creator-owned short-form videos.</li>
+        <p>
+            The application does not access accounts without authorization and does not
+            publish content to accounts that have not granted permission.
+        </p>
 
-<li>Support for draft uploads and direct publishing where supported by the platform.</li>
+    </section>
 
-<li>Multi-platform publishing workflow.</li>
+    <section>
 
-<li>Multi-account support for creators who manage multiple authorized social media accounts.</li>
+        <h2>Supported Platforms</h2>
 
-</ul>
+        <ul>
+            <li>TikTok</li>
+            <li>YouTube</li>
+            <li>Instagram</li>
+        </ul>
 
-</section>
+    </section>
 
-<section>
+    <section>
 
-<h2>Account Authorization</h2>
+        <h2>Legal Information</h2>
 
-<div class="box">
+        <p>
+            For information about how data is handled, please see our
+            <a href="privacy.html">Privacy Policy</a>.
+        </p>
 
-Mindset Publisher only accesses social media accounts that have explicitly
-authorized the application through the platform's official OAuth authorization
-process.
+        <p>
+            For information about using the service, please see our
+            <a href="terms.html">Terms of Service</a>.
+        </p>
 
-The application never accesses or publishes content to accounts that have not
-granted permission.
+    </section>
 
-</div>
-
-</section>
-
-<section>
-
-<h2>Supported Platforms</h2>
-
-<ul>
-
-<li>TikTok</li>
-
-<li>YouTube</li>
-
-<li>Instagram</li>
-
-</ul>
-
-</section>
-
-<section>
-
-<h2>Legal</h2>
-
-<p>
-
-Please review our
-<a href="terms.html">Terms of Service</a>
-and
-<a href="privacy.html">Privacy Policy</a>.
-
-</p>
-
-</section>
+</main>
 
 <footer>
 
-<p>
+    <p>
+        © 2026 Mindset Publisher. All rights reserved.
+    </p>
 
-© 2026 Mindset Publisher. All rights reserved.
-
-</p>
-
-<p>
-
-Contact:
-<a href="mailto:b186mba@gmail.com">b186mba@gmail.com</a>
-
-</p>
+    <p>
+        Contact: <a href="mailto:b186mba@gmail.com">b186mba@gmail.com</a>
+    </p>
 
 </footer>
 
