@@ -3,181 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Mindset Publisher</title>
 
-    <style>
-        body {
-            font-family: Arial, Helvetica, sans-serif;
-            max-width: 900px;
-            margin: 0 auto;
-            padding: 40px 20px;
-            line-height: 1.6;
-            color: #333;
-        }
-
-        header {
-            margin-bottom: 40px;
-        }
-
-        header h1 {
-            margin-bottom: 10px;
-        }
-
-        nav {
-            margin-top: 15px;
-        }
-
-        nav a {
-            margin-right: 20px;
-            color: #333;
-            text-decoration: none;
-        }
-
-        nav a:hover {
-            text-decoration: underline;
-        }
-
-        h1,
-        h2 {
-            color: #222;
-        }
-
-        section {
-            margin-top: 35px;
-        }
-
-        ul {
-            padding-left: 25px;
-        }
-
-        footer {
-            margin-top: 50px;
-            padding-top: 20px;
-            border-top: 1px solid #ddd;
-            font-size: 14px;
-            color: #666;
-        }
-
-        a {
-            color: #333;
-        }
-    </style>
+    <!-- Keep the same CSS link you use in privacy.html -->
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<header>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a href="index.html" class="brand">
+                <img src="logo.png" alt="Mindset Publisher logo">
+                <span>Mindset Publisher</span>
+            </a>
 
-    <h1>Mindset Publisher</h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="terms.html">Terms</a>
+                <a href="privacy.html">Privacy</a>
+            </nav>
+        </div>
+    </header>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="terms.html">Terms</a>
-        <a href="privacy.html">Privacy</a>
-    </nav>
+    <main class="container">
 
-</header>
+        <section class="hero">
+            <img src="logo.png" alt="Mindset Publisher" class="hero-logo">
 
-<main>
+            <h1>Desktop publishing application for creators</h1>
 
-    <h2>Desktop publishing application for creators</h2>
+            <p class="subtitle">
+                Desktop publishing application for short-form video creators.
+            </p>
 
-    <p>
-        Mindset Publisher is a desktop application that helps content creators
-        connect their social media accounts and publish original short-form video content.
-    </p>
+            <p>
+                Mindset Publisher provides desktop publishing tools that help creators
+                connect their TikTok accounts and publish short-form video content
+                through authorized platform integrations.
+            </p>
 
-    <section>
+            <a href="terms.html" class="button">Terms of Service</a>
+            <a href="privacy.html" class="button secondary">Privacy Policy</a>
+        </section>
 
-        <h2>Purpose</h2>
+        <section class="content-section">
 
-        <p>
-            Mindset Publisher provides a centralized publishing workflow for creators
-            who want to prepare and publish their own short-form videos to supported
-            social media platforms.
-        </p>
+            <h2>About Mindset Publisher</h2>
 
-        <p>
-            The application uses official platform authentication and API integrations
-            to connect creator accounts and perform authorized publishing actions.
-        </p>
+            <p>
+                Mindset Publisher is a desktop publishing application designed for
+                short-form video creators. It allows authorized creators to connect
+                their social media accounts and publish video content through official
+                platform APIs.
+            </p>
 
-    </section>
+            <h2>Creator Publishing Tools</h2>
 
-    <section>
+            <p>
+                The application helps creators prepare and publish original short-form
+                videos to social media platforms they are authorized to use. Users
+                remain in control of their connected accounts and content.
+            </p>
 
-        <h2>Features</h2>
+            <h2>Account Authorization</h2>
 
-        <ul>
-            <li>Secure account connection using official OAuth authentication.</li>
-            <li>Publish original short-form video content.</li>
-            <li>Upload videos as drafts where supported by a platform.</li>
-            <li>Directly publish videos where supported by a platform.</li>
-            <li>Manage publishing workflows across supported social platforms.</li>
-            <li>Support for multiple authorized creator accounts.</li>
-        </ul>
+            <p>
+                Users connect their social media accounts through the official
+                authorization flow provided by each platform. Mindset Publisher only
+                performs actions that have been explicitly authorized by the account
+                owner.
+            </p>
 
-    </section>
+        </section>
 
-    <section>
+    </main>
 
-        <h2>Account Authorization</h2>
-
-        <p>
-            Mindset Publisher only accesses social media accounts that have explicitly
-            authorized the application through the platform's official OAuth
-            authorization process.
-        </p>
-
-        <p>
-            The application does not access accounts without authorization and does not
-            publish content to accounts that have not granted permission.
-        </p>
-
-    </section>
-
-    <section>
-
-        <h2>Supported Platforms</h2>
-
-        <ul>
-            <li>TikTok</li>
-            <li>YouTube</li>
-            <li>Instagram</li>
-        </ul>
-
-    </section>
-
-    <section>
-
-        <h2>Legal Information</h2>
-
-        <p>
-            For information about how data is handled, please see our
-            <a href="privacy.html">Privacy Policy</a>.
-        </p>
-
-        <p>
-            For information about using the service, please see our
-            <a href="terms.html">Terms of Service</a>.
-        </p>
-
-    </section>
-
-</main>
-
-<footer>
-
-    <p>
-        © 2026 Mindset Publisher. All rights reserved.
-    </p>
-
-    <p>
-        Contact: <a href="mailto:b186mba@gmail.com">b186mba@gmail.com</a>
-    </p>
-
-</footer>
+    <footer>
+        <div class="container">
+            <p>© 2026 Mindset Publisher. All rights reserved.</p>
+            <p>
+                Contact:
+                <a href="mailto:b186mba@gmail.com">b186mba@gmail.com</a>
+            </p>
+        </div>
+    </footer>
 
 </body>
 </html>
